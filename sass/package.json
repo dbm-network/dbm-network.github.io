@@ -1,0 +1,16 @@
+{
+  "name": "sass-compile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "css": "node-sass ./main.scss -o ../css",
+    "watch": "yarn run css && node-sass ./main.scss -wo ../css"
+  },
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "node-sass": "^4.14.1"
+  }
+}
