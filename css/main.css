@@ -7206,3 +7206,10 @@ label.panel-block {
 .main-nav {
   background: rgba(0, 0, 0, 0);
   border: 0; }
+
+.indented {
+  padding-left: 2.5rem; }
+
+.sticky {
+  position: sticky;
+  top: 0; }
