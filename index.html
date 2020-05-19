@@ -8,6 +8,7 @@
     <meta name="description" content="Free improvements and modifications for Discord Bot Maker">
     <link href="./css/main.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="./js/navbar.js"></script> 
 
     <meta name="application-name" content="DBM Mods" />
     <meta name="theme-color" content="#34495e">
@@ -36,8 +37,6 @@
                     <img src="" alt="" class="logo">
                     <h1 class="title is-5">DBM Mods</h1>
                 </a>
-                <a class="navbar-item " href="">Home</a>
-                <a class="navbar-item " href="">Help</a>
             </div>
             <span class="navbar-toggle">
                 <span></span>
@@ -45,11 +44,13 @@
                 <span></span>
             </span>
             <div class="navbar-end navbar-menu">
-                <a class="navbar-item" href="https://github.com/dbm-network/mods/issues" target="_blank">
-                    <i class="fa fa-bug"></i>&nbsp;Report an issue
+                <a class="navbar-item " href="#how-to-install">How to Install</a>
+                <a class="navbar-item " href="https://dbm-support.site/">Help</a>
+                <a class="navbar-item" href="https://discord.com/invite/3QxkZPK" target="_blank">
+                    <i class="fab fa-discord fa-lg"></i>
                 </a>
                 <a class="navbar-item" href="https://github.com/dbm-network/mods" target="_blank">
-                    <i class="fab fa-github"></i>&nbsp;GitHub
+                    <i class="fab fa-github fa-lg"></i>
                 </a>
             </div>
         </div>
@@ -72,9 +73,8 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="columns">
-            <div class="column is-2 is-hidden-mobile">
+    <section class="section columns columns-offset is-centered">
+        <!-- <div class="column is-2 is-hidden-mobile">
                 <aside class="menu section sticky">
                     <p class="menu-label"> Elements </p>
                     <ul class="menu-list">
@@ -101,42 +101,43 @@
                         </li>
                     </ul>
                 </aside>
-            </div>
-            <div class="column section">
-                <h2 class="title">Overview</h2>
-                <p>DBM Mods is a community driven open source project meant to modify, extend, and improve <a
-                        href="https://store.steampowered.com/app/682130/Discord_Bot_Maker/">Discord Bot
-                        Maker</a>.</p>
-
-                <h3 class="title">Installation guide</h3>
-                <ol class="content indented">
-                    <li>Close Discord Bot Maker</li>
-                    <li>Open your Steam Library and find Discord Bot Maker on the Software tab</li>
-                    <li>Right-click it → Properties → Local Files → Browse Local Files</li>
-                    <li>Open the actions folder</li>
-                    <li>Download this zip: <a
-                            href="https://dbm-network.github.io/download-git/#/home?url=https://github.com/dbm-network/mods/tree/master/actions">here</a>
-                        (<strong>do not clone/download this repository</strong>)</li>
-                    <li>Now copy the files you downloaded out of the zip file into that folder you just opened
-                        (<em>Please overwrite existing ones</em>)</li>
-                </ol>
-
-
-                <h3 class="title">Installing beta</h3>
-
-                <strong>Before starting: if you have encryption enabled, please, disable it before switching
-                    to beta and get backup of the <em>data</em> folder from your project directory.</strong>
+            </div> -->
+        <div class="column has-text-centered is-10 is-6-desktop">
+            <h2 class="title">What is DBM Mods?</h2>
+            <p>DBM Mods is a community driven open source project meant to modify, extend, and improve <a
+                    href="https://store.steampowered.com/app/682130/Discord_Bot_Maker/">Discord Bot
+                    Maker</a>.</p>
+        </div>
+    </section>
+    <section class="section columns columns-offset is-centered has-background-black-bis">
+        <div class="column is-10 is-6-desktop">
+            <h3 class="title" id="how-to-install">Installation guide</h3>
+            <ol class="content indented">
+                <li>Close Discord Bot Maker</li>
+                <li>Open your Steam Library and find Discord Bot Maker on the Software tab</li>
+                <li>Right-click it → Properties → Local Files → Browse Local Files</li>
+                <li>Open the actions folder</li>
+                <li>Download this zip: <a
+                        href="https://dbm-network.github.io/download-git/#/home?url=https://github.com/dbm-network/mods/tree/master/actions">here</a>
+                    (<strong>do not clone/download this repository</strong>)</li>
+                <li>Now copy the files you downloaded out of the zip file into that folder you just opened
+                    (<em>Please overwrite existing ones</em>)</li>
+            </ol>
 
 
-                <ol class="content indented">
-                    <li>Close Discord Bot Maker</li>
-                    <li>Open your Steam Library and find Discord Bot Maker on the Software tab</li>
-                    <li>Right-click it → Properties → Betas</li>
-                    <li>Select beta in the drop-down menu (no key is required)</li>
-                    <li>DBM should update now. Otherwise restart Steam and restart the guide.</li>
-                </ol>
+            <h3 class="title">Installing beta</h3>
 
-            </div>
+            <strong>Before starting: if you have encryption enabled, please, disable it before switching
+                to beta and get backup of the <em>data</em> folder from your project directory.</strong>
+
+
+            <ol class="content indented">
+                <li>Close Discord Bot Maker</li>
+                <li>Open your Steam Library and find Discord Bot Maker on the Software tab</li>
+                <li>Right-click it → Properties → Betas</li>
+                <li>Select beta in the drop-down menu (no key is required)</li>
+                <li>DBM should update now. Otherwise restart Steam and restart the guide.</li>
+            </ol>
         </div>
     </section>
     <footer class="footer">
