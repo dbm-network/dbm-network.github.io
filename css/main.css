@@ -7205,7 +7205,10 @@ label.panel-block {
 
 .main-nav {
   background: rgba(0, 0, 0, 0);
-  border: 0; }
+  border: 0;
+  position: fixed;
+  width: 100%;
+  transition: background-color 0.1s ease; }
 
 .indented {
   padding-left: 2.5rem; }
@@ -7213,3 +7216,6 @@ label.panel-block {
 .sticky {
   position: sticky;
   top: 0; }
+
+.columns-offset {
+  margin-bottom: 0px !important; }
