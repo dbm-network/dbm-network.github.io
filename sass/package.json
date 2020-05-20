@@ -6,8 +6,8 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "css": "node-sass ./main.scss -o ../css",
-    "watch": "yarn run css && node-sass ./main.scss -wo ../css"
+    "css": "node-sass ./main.scss -o ../css --output-style compressed",
+    "watch": "yarn run css && node-sass ./main.scss -wo ../css --output-style compressed"
   },
   "devDependencies": {
     "bulma": "^0.8.2",
